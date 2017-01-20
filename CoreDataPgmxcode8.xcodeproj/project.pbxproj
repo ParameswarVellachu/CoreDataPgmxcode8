@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F79F975C1E250D9C0060F256 /* CourseDetails+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79F975A1E250D9C0060F256 /* CourseDetails+CoreDataClass.swift */; };
+		F79F975D1E250D9C0060F256 /* CourseDetails+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79F975B1E250D9C0060F256 /* CourseDetails+CoreDataProperties.swift */; };
 		F7A444301E24B4D2002F3F2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A4442F1E24B4D2002F3F2B /* AppDelegate.swift */; };
 		F7A444321E24B4D2002F3F2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A444311E24B4D2002F3F2B /* ViewController.swift */; };
 		F7A444351E24B4D2002F3F2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7A444331E24B4D2002F3F2B /* Main.storyboard */; };
@@ -35,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F738862B1E2F6A1B00F78620 /* CoreDataPgmxcode1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataPgmxcode1.xcdatamodel; sourceTree = "<group>"; };
+		F79F975A1E250D9C0060F256 /* CourseDetails+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CourseDetails+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F79F975B1E250D9C0060F256 /* CourseDetails+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CourseDetails+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		F7A4442C1E24B4D2002F3F2B /* CoreDataPgmxcode8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataPgmxcode8.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7A4442F1E24B4D2002F3F2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7A444311E24B4D2002F3F2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +84,8 @@
 		F7A444231E24B4D1002F3F2B = {
 			isa = PBXGroup;
 			children = (
+				F79F975A1E250D9C0060F256 /* CourseDetails+CoreDataClass.swift */,
+				F79F975B1E250D9C0060F256 /* CourseDetails+CoreDataProperties.swift */,
 				F7A4442E1E24B4D2002F3F2B /* CoreDataPgmxcode8 */,
 				F7A444461E24B4D2002F3F2B /* CoreDataPgmxcode8Tests */,
 				F7A444511E24B4D2002F3F2B /* CoreDataPgmxcode8UITests */,
@@ -196,13 +203,16 @@
 				TargetAttributes = {
 					F7A4442B1E24B4D2002F3F2B = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0810;
 					};
 					F7A444421E24B4D2002F3F2B = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0810;
 						TestTargetID = F7A4442B1E24B4D2002F3F2B;
 					};
 					F7A4444D1E24B4D2002F3F2B = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0810;
 						TestTargetID = F7A4442B1E24B4D2002F3F2B;
 					};
 				};
@@ -259,7 +269,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F79F975D1E250D9C0060F256 /* CourseDetails+CoreDataProperties.swift in Sources */,
 				F7A444321E24B4D2002F3F2B /* ViewController.swift in Sources */,
+				F79F975C1E250D9C0060F256 /* CourseDetails+CoreDataClass.swift in Sources */,
 				F7A444301E24B4D2002F3F2B /* AppDelegate.swift in Sources */,
 				F7A444381E24B4D2002F3F2B /* CoreDataPgmxcode8.xcdatamodeld in Sources */,
 			);
@@ -407,6 +419,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Mobile-Tutor-Private-Limited.CoreDataPgmxcode8";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -418,6 +431,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Mobile-Tutor-Private-Limited.CoreDataPgmxcode8";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -429,6 +443,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Mobile-Tutor-Private-Limited.CoreDataPgmxcode8Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreDataPgmxcode8.app/CoreDataPgmxcode8";
 			};
 			name = Debug;
@@ -441,6 +456,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Mobile-Tutor-Private-Limited.CoreDataPgmxcode8Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreDataPgmxcode8.app/CoreDataPgmxcode8";
 			};
 			name = Release;
@@ -452,6 +468,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Mobile-Tutor-Private-Limited.CoreDataPgmxcode8UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = CoreDataPgmxcode8;
 			};
 			name = Debug;
@@ -463,6 +480,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Mobile-Tutor-Private-Limited.CoreDataPgmxcode8UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = CoreDataPgmxcode8;
 			};
 			name = Release;
@@ -486,6 +504,7 @@
 				F7A444591E24B4D2002F3F2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F7A4445A1E24B4D2002F3F2B /* Build configuration list for PBXNativeTarget "CoreDataPgmxcode8Tests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +513,7 @@
 				F7A4445C1E24B4D2002F3F2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F7A4445D1E24B4D2002F3F2B /* Build configuration list for PBXNativeTarget "CoreDataPgmxcode8UITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +522,7 @@
 				F7A4445F1E24B4D2002F3F2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
@@ -509,6 +530,7 @@
 		F7A444361E24B4D2002F3F2B /* CoreDataPgmxcode8.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				F738862B1E2F6A1B00F78620 /* CoreDataPgmxcode1.xcdatamodel */,
 				F7A444371E24B4D2002F3F2B /* CoreDataPgmxcode8.xcdatamodel */,
 			);
 			currentVersion = F7A444371E24B4D2002F3F2B /* CoreDataPgmxcode8.xcdatamodel */;
